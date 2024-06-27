@@ -1,6 +1,8 @@
+
+
 <!DOCTYPE html>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Yinxue Wang's Website</title>
+	<title>Zuolin Cheng's Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="theme/bootstrap.min.css">
 	<!-- <link rel="stylesheet" href="./bootstrap-theme.min.css"> -->
@@ -32,7 +34,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
       	</button>
-      	<h1 style="font-size: 25px; color:#aaa;">Yinxue Wang</h1>
+      	<h1 style="font-size: 25px; color:#aaa;">Zuolin Cheng</h1>
     </div>
 	    <div class="collapse navbar-collapse" id="navbar-top">
 			<ul class="nav navbar-nav navbar-right">
@@ -58,109 +60,513 @@
 </div> -->
 <div class="container" style="padding-top: 80px; font-size: 18px">
 <!-- <div class="container"; font-size: 18px"> -->
-	<div class="row">
-		<div class="col-md-3" ,="" style="padding-right: 40px">
-			<img class="img-responsive img-rounded" src="data/imgs/me.JPG" alt="">  <!-- Image -->
+	<div class="intro-container">
+	<div class="intro-content">
+		<div class="intro-image">
+			<img class="img-responsive img-rounded" src="data/imgs/me21.JPG" alt="">  <!-- Image -->
 		</div>
-		<div class="col-md-9" align="justify" >
+		
+		<div class="intro-description" align="justify">
 		<p style="color:white;">
-		Hi! I’m Yinxue (Olivia) Wang, an engineer and researcher in machine Learning and bio-image analysis. I got my PhD degree from the Department of Electrical and Computer Engineering, Virginia Tech. I’ve been fortunately working with my supervisors <b><a target="_blank" href="https://ece.vt.edu/people/profile/yu/">Prof. Guoqiang Yu</a></b>, and <b><a target="_blank"
-								href="https://ece.vt.edu/people/profile/ywang/">Prof. Yue (Joseph) Wang</a></b>  for years, during which I developed skills in various aspects as a machine learning engineer and scholar. 
-								Before comming to Virginia Tech, I earned my Bachelor's degree from Tsinghua University, Beijing. My undergraduate thesis was about traffic sign recognition for autonomous vehicles.
+		Hello! Welcome to my portfolio! I am Zuolin Cheng, a bioinformatician with a Ph.D. from Virginia Tech, USA, and a master's from Peking University, China. 						<!--Before comming to Virginia Tech, I earned my Bachelor's degree from Tsinghua University, Beijing. My undergraduate thesis was about traffic sign recognition for autonomous vehicles. -->
 		</p>
 		<p style="color:white;">
-		My general interests blend machine learning, computer vision, optimization and stochastic signal processing. And my specific research area lies in developing machine learning and computational solutions to the puzzles of extracting meaningful signals from microscopic imaging data. Recently I’m particularly focusing on automatic crowded object (cell) tracking from 3D microscopic videos. 
+		My research focuses on bioinformatics, machine learning, optimization, and statistical modeling. I specialize in designing data analysis pipelines for biological research projects, and developing machine learning solutions for extracting meaningful signals from large-scale omics data.
 		</p>
+		
+		<p style="color:white;">
+		Recently, I've been applying Large Language Models (LLMs) to solve biological problems by leveraging domain knowledge to guide the model towards learning biologically plausible predictions. 
+		</p>
+		
 		<p style="color:white;"> 
-		Welcome to my portfolio and thanks for your interest! 
-		</p>
-		<!-- <font color="red">I am graduating in 2021 and currently on the job market.</font> <br> -->
+		I have collaborated with institutions like Stanford University and Cincinnati Children’s Hospital, with my work published in top journals such as Neuron, Cell Stem Cell, and Immunity. Notably, my co-first author paper in Neuron was the best paper of 2019.
+		</p>		
+
+
+				
 		<font color= #D1F078>I am currently on the job market. </font> 
-		<a href="data/Resume_YinxueWang_03102022.pdf">[Resume]</a>
-		<!-- <a href="https://github.com/yu-lab-vt">[GitHub(Yu-lab)]</a> -->
-		<a href="https://scholar.google.com/citations?hl=en&user=NiR1HrEAAAAJ&view_op=list_works">[Google Scholar]</a><br>
+		<a href="data/Resume_ZuolinCheng_V9.1_.pdf">[Resume]</a>
+		<a href="https://scholar.google.com/citations?user=6pHncW4AAAAJ&hl=en&oi=ao">[Google Scholar]</a>
+		<a href="https://github.com/yu-lab-vt/CMC">[GitHub<small>(YuLab)</small>]</a>
+		
+		</br>Please feel free to contact me (<a href="mailto:zuolin8@vt.edu">zuolin8@vt.edu</a>) if you’re interested.
+						
 		</div>
 	</div>
+	</div>
 </div>
+       
+
+<style>
+    .intro-container {
+        width: 100%;
+        color: white;
+    }
+    .intro-content {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .intro-image {
+        flex: 0 0 25%;
+        padding-right: 35px;
+    }
+    .intro-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 0;
+    }
+    .intro-description {
+        flex: 0 0 75%;
+        margin-top: 0;
+        font-size: 18px; /* Increased font size */
+        line-height: 1.5; /* Adjusted line height for better readability */
+    }
+    .intro-description p:first-child {
+        margin-top: 0;
+    }
+</style>
 
 
 
 
-<!-- Projects -->
 
 
+
+
+
+
+<br> <!-- Adding an empty line -->
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ongoing Projects</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project-title {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .project-details {
+            list-style-type: disc;
+            font-size: 18px;
+            margin-left: 0px;
+        }
+        
+    </style>
+</head>
+
+
+
+
+<!-- Ongoing Projects -->
+<body>
+    <div class="container">
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Ongoing Projects</h2>
+            <div class="project">
+                <h3 class="project-title">GO-BERT: Cell Type Annotation for scRNA-seq Data Using Large Language Model (LLM)</h3>
+                <ul class="project-details">
+                    <li>Leveraged domain knowledge from Gene Ontology (GO) to enhance the model architecture, guiding the model towards biologically plausible predictions in cell-type annotations.</li>
+                    <li>Working on improving model’s awareness of cell’s global context to ensure more precise predictions.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3 class="project-title">Peak Calling Analysis for CUT&amp;RUN Chromatin Profiling Data</h3>
+                <ul class="project-details">
+                    <li>Developing a statistical model to robustly identify DNA binding sites, tailored specifically for the unique characteristics of CUT&amp;RUN chromatin profiling data.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3 class="project-title">Therapy Data Analysis for Non-Small Cell Lung Cancer Patients</h3>
+                <ul class="project-details">
+                    <li>Developed a treatment effectiveness analysis pipeline, identifying two patient clusters with distinct response mechanisms to "chemotherapy + immunotherapy."</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+
+
+
+
+
+<!-- Completed Projects -->
 <div id="Projects" class="page-header container">
-	<h1  style="color:white;">Projects </h1>
-  </div>
-<div class="container">		
-	<!-- </div><hr> -->
+	<h1  style="color:white;">Selected Projects</h1>
+</div>	
+
+<div class="container">	
+
+    <!-- Neuron -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;"> Heterogeneity of Microglia and Brain Myeloid Cells During Development</h2>
+        <div class="project-description"> Designed and implemented scRNA-seq data analysis pipeline. 
+        <a href="https://www.sciencedirect.com/science/article/pii/S0896627318310821?via%3Dihub">  [Paper: <span class="smaller-text">Neuron</span>]</a><p>
+        </div>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/Neuron_P1.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p><b>scRNA-seq Analysis pipeline</b> (alignment, QC, normalization, clustering, DEG analysis, etc.)</p>
+            </div>
+        </div>
+        
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/Neuron_P2.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>Pseudotime analysis;<br>Pathway/GO enrichment analysis;<br>Gene regulation network construction;</p>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/Neuron_P3_2.jpg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p><b>Cell cycle reconstruction; <br> Cell types similarity analysis</b> (newly-found PAM vs well-know DAM);</p>
+            </div>
+        </div>
+        
+    </div>
+    <br><br> 
+    
+
+
+    <!-- CMC Project -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;">CMC: A Machine Learning Model to Unify Various Genomic Analysis Tasks</h2>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/CMC.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>CMC advances various genomic analysis tasks by transforming complex tasks into a unified mathematical problem - inference of the multifactorial effect in large-scale omics data.</p>
+				<p><a href="https://github.com/yu-lab-vt/CMC">[GitHub: <span class="smaller-text">CMC</span>]</a> 
+				<a href="https://www.biorxiv.org/content/10.1101/2024.04.12.589306v1.full.pdf"> [Paper: <span class="smaller-text">CMC</span>]</a></p>
+            </div>
+        </div>
+    </div>
+    <br><br>
 	
-	<!-- Video: FASP (1024 X 512) -->
-	<div class="row">
-		<div class="col-md-7">
-			<a href="data/videos/video_FASP.mp4" target="_blank">
-			<video width="640" height="320" autoplay loop muted>
-			<!-- <video width="640" height="320" controls muted>-->
-			  <source src="data/videos/video_FASP.mp4" type="video/mp4">
-			[video_FASP.mp4] Sorry, your browser does not support the video tag.
-			</video>
-		</div>
-		
-		
-		<div class="col-md-5" align="justify"  style="color:white;">
-		<!-- <b>FASP: Regional Spiking Signal Detection from Microscopic Videos</b> <a href="https://github.com/OliviaWang90/FASP"> [Details] </a> <br> -->
-		<a href="https://github.com/OliviaWang90/FASP"> <b>FASP: Regional Spiking Signal Detection from Microscopic Videos</b> </a> <br>
-		</div>
-	</div>
 	
-	<br><br>
-	<br><br>
-	
-	<!-- Video: Tracking (952 X 314) -->
-	<div class="row">
-		<div class="col-md-7">
-			<a href="data/videos/video_Track.mp4" target="_blank">
-			<video width="640" height="211" autoplay loop muted>
-			<!-- <video width="640" height="320" controls muted>-->
-			  <source src="data/videos/video_Track.mp4" type="video/mp4">
-			[video_FASP.mp4] Sorry, your browser does not support the video tag.
-			</video>
-		</div>
-		
-		
-		<div class="col-md-5" align="justify"  style="color:white;">
-		<!-- <b>FASP: Regional Spiking Signal Detection from Microscopic Videos</b> <a href="https://github.com/OliviaWang90/FASP"> [Details] </a> <br> -->
-		<a href="https://github.com/OliviaWang90/MicTracker"> <b>Migrating Cell Identification and Tracking from Videos of Crowded Live Cell Cluster</b> </a> <br>
-		</div>
-	</div>
-	
-	
-	
-	<div class="row">
-		<div class="col-md-9">
-			<a href="data/imgs/Tracking.png" target="_blank">
-			<img class="img-responsive img-rounded" src="data/imgs/Tracking.png" alt="" style="text-align: center;"></a>
-		</div>
-	</div>	
+    <!-- App1: Driving TF -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;">(Application 1) Driving Transcription Factor(TF) Identification</h2>
+        <div class="project-description"> Driving TF identification aims to pinpoint TFs responsible for biological processes or diseases by mining a large-scale TF-gene binding database. 
+        <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-DrivingTFDetection">[GitHub: <span class="smaller-text">DrivingTF</span>]</a> 
+        <br> Using CMC, we systematically models gene & TF binding affinity heterogeneity, leading to more accurate detection.</p>	
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/DrivingTF_P1.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>We observed significant heterogeneity in gene and TF binding affinities.</p>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/DrivingTF_P2.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p><br>The model successfully identified Zfp36l1 as a key regulator of glial fate specification and glioma growth, confirmed by knock-out experiments, leading to genuine biological discoveries.
+                <a href="https://www.sciencedirect.com/science/article/pii/S1934590919301055"> [Paper: <span class="smaller-text">DrivingTF</span>]</a></p>
+            </div>
+        </div>      
+        </div>
+    </div>
+    <br><br>
+    
+    
+    <!-- Application 2:scRNA-seq Normalization -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;">(Application 2) scRNA-seq Data Normalization</h2>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/scRNANorm.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+            	<p><a href="https://github.com/yu-lab-vt/CMC/tree/CMC-3DNorm">[GitHub: <span class="smaller-text">scRNAseq_Norm</span>]</a>
+            	<br><br><br><br><br>
+                <p>We observed that “effective cDNA-length” significantly impacts scRNA-seq raw counts.</p>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/scRNANorm_P2.png" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>CMC-based normalization reduces variances of housekeeping genes, while preserving variances of differentially expressed genes (DEGs).</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    
+    
+    
+    <!-- Application 3:TySim -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;"> (Application 3) TySim: Quantifying Similarity of Single Cells to Target Cell Type</h2>
+        <div class="project-description"> TySim is the first tool to quantify single-cell similarity to a target cell type (for scRNA-seq data across different sequencing platforms) 
+        <a href="https://ieeexplore.ieee.org/abstract/document/9995574">[Paper: <span class="smaller-text">TySim</span>]</a> 
+        <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-TySim">  [GitHub: <span class="smaller-text">TySim</span>]</a><p>
+        </div>
+        
+        <div class="project-description"> It is developed to address biologists' questions such as:<br>
+			(1) What is the relationship between a newly discovered cell type and a known cell type?<br>
+			(2) Does a cell type of interest exist in my single cell population?</p>	
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/TySim_P1.svg" alt="CMC Project Image">
+            </div>   
+        </div>
+        </div>
+        
+        <br>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/TySim_P2.jpg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>TySim enables the identification of cell type that was not discovered due to contamination in scRNA-seq data.</p>
+            </div>
+        </div>
+        
+        <br>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/TySim_P3.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>TySim was applied to validate the effectiveness of an inducible genetic tool for tracking microglial subtypes in disease.
+                <a href="https://www.cell.com/immunity/fulltext/S1074-7613(24)00258-9">[Paper: <span class="smaller-text">Immunity</span>]</a> </p>
+            </div>
+        </div>
+    
+    </div>
+    <br><br>    
+    
+    
+    
+    	
+    <!-- Application 4:GO Term -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;"> (Application 4) Gene Ontology (GO) term activity score transformation</h2>
+        <div class="project-description"> A model to transform the scRNA-seq dataset into GO term activity score. 
+        <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-GOTermActivity">  [GitHub: <span class="smaller-text">GO-Transform</span>]</a><p>
+        </div>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/GOTerm_P1.svg" alt="CMC Project Image">
+            </div>
+        </div>
+        
+        <br>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/GOTerm_P2.jpg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>TySim enables the identification of cell type that was not discovered due to contamination in scRNA-seq data.</p>
+            </div>
+        </div>
+        
+        <br>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/TySim_P3.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>TySim was applied to validate the effectiveness of an inducible genetic tool for tracking microglial subtypes in disease. [Paper]</p>
+            </div>
+        </div>
+        
+    </div>
+    <br><br>        	
+    	
+    	
+    <!-- Application 5:CancerGene -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;"> (Application 5) Cancer Associated Gene Identification</h2>
+        <div class="project-description"> A model to identify the genes whose mutations are responsible for a particular cancer initiation and progression. 
+        <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-CancerGeneFinder">  [GitHub: <span class="smaller-text">CancerGeneFinder</span>]</a><p>
+        </div>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/CancerGene_P1.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p><b>Q: which gene’s mutations are responsible for cancer’s initiation & progression? </b></p>
+            </div>
+        </div>
+        
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/CancerGene_P2.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>Mutation rates vary across patients, mutation types, and other factors.</p>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/CancerGene_P3_2.jpg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p><b>CMC reduces potential artefactual findings</b> by modeling the heterogeneity of mutation rates.</p>
+            </div>
+        </div>
+        
+    </div>
+    <br><br>   
+    
+    
+    
+    <!-- Imputation -->
+    <div class="project-container">
+        <h2 style="color:white; width: 100%;"> GLImpute: Missing Value Imputation by Joint Inference of Global-Local Interaction Network</h2>
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/GLImpute_P1.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p><b>Missing Value Imputation</b> by joint inference of Global-Local interaction network</p>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/GLImpute_P2.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>GLImpute achieved significantly lower imputation errors regardless of local/global component ratio.</p>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/GLImpute_P3.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>Superior performance of GLImpute on metabolite data</p>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/GLImpute_P5.svg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>GLImpute consistently outperforms others in imputing traffic speed data over 61 days</p>
+            </div>
+        </div>
+        
+        <br>
+                
+        <div class="project-content">
+            <div class="project-image">
+                <img class="img-responsive img-rounded" src="data/imgs/GLImpute_P4_2.jpg" alt="CMC Project Image">
+            </div>
+            <div class="project-description">
+                <p>GLImpute well recovers genes’ expression patterns in scRNA-seq data</p>
+            </div>
+        </div>        
+                
+    </div>
+    <br><br> 
+        
+    
+    
 	
 </div>
+
+
+
+
+<style>
+    .project-container {
+        width: 100%;
+        color: white;
+    }
+    .project-content {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .project-image {
+        flex: 0 0 70%;
+        padding-right: 15px;
+    }
+    .project-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 0;
+    }
+    .project-description {
+        flex: 0 0 30%;
+        margin-top: 0;
+        font-size: 18px; /* Increased font size */
+        line-height: 1.5; /* Adjusted line height for better readability */
+    }
+    .project-description p:first-child {
+        margin-top: 0;
+    }
+    .project-description a {
+        font-size: 18px; /* Slightly smaller font size for links */
+    }
+    .project-description .smaller-text {
+        font-size: 13px; /* Smaller font size for the CMC part */
+    }
+</style>
+
+
+
 
 
 
 <!-- Publications -->
-
 <div id="Publications" class="page-header container">
-	<h1 style="color:white;">Publications (*equal contribution) </h1>
+	<h1 style="color:white;">Publications</h1>
   </div>
 <div class="container">
 
-
 	<div class="row">
 		<div class="col-md-12" style="color:white;">
-		<b>Automated functional analysis of astrocytes from chronic time-lapse calcium imaging data</b><br>
-		<b>Yinxue Wang</b>, Guilai Shi, David J Miller, Yizhi Wang, Congchao Wang, Gerard Broussard, Yue Wang, Lin Tian, Guoqiang Yu<br>
-		<i>Frontiers in neuroinformatics, July 2017.</i><br>
-		<a href="https://www.frontiersin.org/articles/10.3389/fninf.2017.00048/full"> <small>[Paper] </small></a>
+		<b>Developmental heterogeneity of microglia and brain myeloid cells revealed by deep single-cell RNA sequencing</b><br>
+		Li Q*, <b>Cheng Z* (co-first author)</b>, Zhou L, Darmanis S, Neff NF, Okamoto J, … & Tony Wyss-Coray, Ben A Barres<br>
+		<i><b>Neuron</b>, Jan. 2019.</i><br>
+		<a href="https://www.sciencedirect.com/science/article/pii/S0896627318310821"> <small>[Paper] </small></a>
 		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
 		</div>
 	</div><br>
@@ -168,80 +574,203 @@
 
 	<div class="row">
 		<div class="col-md-12" style="color:white;">
-		<b>Aberrant calcium signaling in astrocytes inhibits neuronal excitability in a human Down syndrome stem cell model</b><br>
-		Grace O Mizuno*, <b>Yinxue Wang*</b>, Guilai Shi*, Yizhi Wang, Junqing Sun, Stelios Papadopoulos, Gerard J Broussard, Elizabeth K Unger, Wenbin Deng, Jason Weick, Anita Bhattacharyya, Chao-Yin Chen, Guoqiang Yu, Loren L Looger, Lin Tian<br>
-		<i>Cell reports, July 2018.</i><br>
-		<a href="https://www.sciencedirect.com/science/article/pii/S2211124718309434"> <small>[Paper] </small></a>
-		<!-- <a href="https://github.com/yu-lab-vt/Whole-VNC-Imaging-Analysis"> <small>[Code] </small></a> -->
+		<b>Single-cell transcriptomics uncovers glial progenitor diversity and cell fate determinants during development and gliomagenesis </b><br>
+		Weng Q, Wang J, Wang J, He D, <b>Cheng Z</b>, Zhang F, Verma R, Xu L, Dong X, Liao Y, He X, Potter A, Zhang L, Zhao C, et al.<br>
+		<i><b>Cell stem cell</b>, May 2019.</i><br>
+		<a href="https://www.sciencedirect.com/science/article/pii/S1934590919301055"> <small>[Paper] </small></a>
+		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
 		</div>
 	</div><br>
 	
 	<div class="row">
 		<div class="col-md-12" style="color:white;">
-		<b>Detection and tracking of migrating oligodendrocyte progenitor cells from in vivo fluorescence time-lapse imaging data</b><br>
-		<b>Yinxue Wang</b>, Maria Ali, Yue Wang, Sarah Kucenas, Guoqiang Yu<br>
-		<i>2018 IEEE 15th International Symposium on Biomedical Imaging (ISBI 2018), April 2018</i><br>
-		<a href="https://ieeexplore.ieee.org/abstract/document/8363730"> <small>[Paper]</small></a>
-		<!-- <a href="https://github.com/yu-lab-vt/SynQuant"> <small>[Code]</small></a> -->
-		</div>
-	</div><br>	
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>FASP: A machine learning approach to functional astrocyte phenotyping from time-lapse calcium imaging data</b><br>
-		<b>Yinxue Wang</b>, Guilai Shi, David J Miller, Yizhi Wang, Gerard Broussard, Yue Wang, Lin Tian, Guoqiang Yu<br>
-		<i>2016 IEEE 13th International Symposium on Biomedical Imaging (ISBI), April 2016</i><br>
-		<a href="https://ieeexplore.ieee.org/abstract/document/7493281"> <small>[Paper]</small></a>
-		<a href="https://github.com/Elinor90/FASP"> <small>[Code]</small></a>
-		</div>
-	</div><br>	
-
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Predicting age at loss of ambulation in Duchenne muscular dystrophy with deep phenotypic measures</b><br>
-		<b>Yinxue Wang</b>, Luca Bello, Yue Wang, Craig M McDonald, Eric P Hoffman, Guoqiang Yu<br>
-		<i>2014 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Dec. 2014</i><br>
-		<a href="https://ieeexplore.ieee.org/abstract/document/7032343"> <small>[Paper]</small></a>
-		<!-- <a href="https://github.com/yu-lab-vt/FASP"> <small>[Code]</small></a> -->
-		</div>
-	</div><br>	
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>muSSP: Efficient min-cost flow algorithm for multi-object tracking</b><br>
-		Congchao Wang, Yizhi Wang, <b>Yinxue Wang</b>, Chiung-Ting Wu, Guoqiang Yu<br>
-		<i>Advances in Neural Information Processing Systems (NeurIPS), December, 2019</i><br>
-		<a href="http://papers.neurips.cc/paper/8334-mussp-efficient-min-cost-flow-algorithm-for-multi-object-tracking"> <small>[Paper]</small></a>
-		<a href="https://github.com/yu-lab-vt/muSSP"> <small>[Code]</small></a>
-		</div>
-	</div><br>	
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Met is required for oligodendrocyte progenitor cell migration in Danio rerio</b><br>
-		Maria F Ali, Andrew J Latimer, <b>Yinxue Wang</b>, Leah Hogenmiller, Laura Fontenas, Adam J Isabella, Cecilia B Moens, Guoqiang Yu, Sarah Kucenas<br>
-		<i>G3: Genes, Genomes, Genetics, July 2021</i><br>
-		<a href="https://academic.oup.com/g3journal/article/11/10/jkab265/6329277?login=true"> <small>[Paper]</small></a>
-		<!-- <a href="https://github.com/Elinor90/FASP"> <small>[Code]</small></a> -->
-		</div>
-	</div><br>	
-	
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>SynQuant: an automatic tool to quantify synapses from microscopy images</b><br>
-		Yizhi Wang*, Congchao Wang*, Petter Ranefall, Gerard Joey Broussard, <b>Yinxue Wang</b>, Guilai Shi, <br>Boyu Lyu, Chiung-Ting Wu, Yue Wang, Lin Tian, Guoqiang Yu<br>
-		<i>Bioinformatics, March 2020</i><br>
-		<a href="https://academic.oup.com/bioinformatics/article/36/5/1599/5584198?login=true"> <small>[Paper]</small></a>
-		<a href="https://github.com/yu-lab-vt/SynQuant"> <small>[Code]</small></a>
+		<b>An inducible genetic tool for tracking and manipulating specific microglial states in development and disease</b><br>
+		Barclay K, Nora A, <b>Cheng Z</b>, Kim M, Zhou L, Yang J, Rustenhoven J, Mazzitelli J, Smyth LC, Kapadia D, Brioschi S, et al.<br>
+		<i><b>Immunity</b>, May 2024.</i><br>
+		<a href="https://www.cell.com/immunity/fulltext/S1074-7613(24)00258-9"> <small>[Paper] </small></a>
+		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
 		</div>
 	</div><br>
-
-
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>An Efficient and Principled Model to Jointly Learn the Agnostic and Multifactorial Effect in Large-Scale Biological Data</b><br>
+		<b>Cheng Z</b>, Wei S, Wang Y, Wang Y, Lu R, Wang Y, Yu G<br>
+		<i>bioRxiv, Apr. 2024.</i><br>
+		<a href="https://www.biorxiv.org/content/10.1101/2024.04.12.589306v1.full.pdf"> <small>[Paper]</small></a>
+		<a href="https://github.com/yu-lab-vt/CMC"> <small>[Code] </small></a>
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>A Single-Cell-Resolution Quantitative Metric of Similarity to a Target Cell Type for scRNA-seq Data</b><br>
+		<b>Cheng Z</b>, Wei S, Yu G<br>
+		<i>In 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Dec. 2022.</i><br>
+		<a href="https://ieeexplore.ieee.org/abstract/document/9995574"> <small>[Paper]</small></a>
+		<a href="https://github.com/yu-lab-vt/CMC/tree/CMC-TySim"> <small>[Code] </small></a>
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Self-heating burn-in pattern generation based on the genetic algorithm incorporated with a BACK-like procedure</b><br>
+		<b>Cheng Z</b>, Cui X, Cui X, Lee CL<br>
+		<i>IET Computers & Digital Tech., Nov. 2015.</i><br>
+		<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cdt.2014.0219"> <small>[Paper]</small></a>
+		</div>
+	</div><br>
 	
 	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Cosbin: cosine score-based iterative normalization of biologically diverse samples</b><br>
+		Wu CT, Shen M, Du D, <b>Cheng Z</b>, Parker SJ, Lu Y, Van Eyk JE, Yu G, Clarke R, Herrington DM, Wang Y, et al.<br>
+		<i>Bioinformatics Advances, Oct. 2022.</i><br>
+		<a href="https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac076/6764617"> <small>[Paper]</small></a>
+		<a href="https://github.com/MinjieSh/Cosbin"> <small>[Code] </small></a>
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Microglial microRNAs mediate sex-specific responses to tau pathology</b><br>
+		Kodama L, Guzman E, Etchegaray JI, Li Y, Sayed FA, Zhou L, Zhou Y, Zhan L, Le D, Udeochu JC, Clelland CD, <b>Cheng Z</b>, et al.<br>
+		<i><b>Nature Neuroscience</b>, Feb. 2020.</i><br>
+		<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7394069/"> <small>[Paper] </small></a>
+		</div>
+	</div><br>
+		
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>AD-linked R47H-TREM2 mutation induces disease-enhancing microglial states via AKT hyperactivation</b><br>
+		Sayed FA, Kodama L, Fan L, Carling GK, Udeochu JC, Le D, Li Q, Zhou L, Wong MY, Horowitz R, Ye P, Mathys H, Wang M, Niu X, 
+		Mazutis L, Jiang X, Wang X, Gao F, Brendel M, Maria T, Tracy TE, Frost G, Zhou Y, Li Y, Qiu Y, <b>Cheng Z</b>, Yu G, et al.<br>
+		<i><b>Science Translational Medicine</b>, Dec. 2021.</i><br>
+		<a href="https://www.science.org/doi/full/10.1126/scitranslmed.abe3947"> <small>[Paper] </small></a>
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Paternal malnutrition programs breast cancer risk and tumor metabolism in offspring</b><br>
+		da Cruz RS, Carney EJ, Clarke J, Cao H, Cruz MI, Benitez C, Jin L, Fu Y, <b>Cheng Z</b>, Wang Y, de Assis S<br>
+		<i>Breast Cancer Research, Dec. 2018.</i><br>
+		<a href="https://link.springer.com/article/10.1186/s13058-018-1034-7"> <small>[Paper] </small></a>
+		</div>
+	</div><br>		
 	
 </div>
+
+
+
+<!-- Publications -->
+<div id="Publications" class="page-header container">
+	<h1 style="color:white;">Publications</h1>
+  </div>
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>An Efficient and Principled Model to Jointly Learn the Agnostic and Multifactorial Effect in Large-Scale Biological Data</b><br>
+		<!--  <b>Cheng Z</b>, Wei S, Wang Y, Wang Y, Lu R, Wang Y, Yu G<br> -->
+		<i>bioRxiv, Apr. 2024.</i><br>
+		<a href="https://www.biorxiv.org/content/10.1101/2024.04.12.589306v1.full.pdf"> <small>[Paper]</small></a>
+		<a href="https://github.com/yu-lab-vt/CMC"> <small>[Code] </small></a>
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>A Single-Cell-Resolution Quantitative Metric of Similarity to a Target Cell Type for scRNA-seq Data</b><br>
+		<!--  <b>Cheng Z</b>, Wei S, Yu G<br>  -->
+		<i>In 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Dec. 2022.</i><br>
+		<a href="https://ieeexplore.ieee.org/abstract/document/9995574"> <small>[Paper]</small></a>
+		<a href="https://github.com/yu-lab-vt/CMC/tree/CMC-TySim"> <small>[Code] </small></a>
+		</div>
+	</div><br>
+
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Developmental heterogeneity of microglia and brain myeloid cells revealed by deep single-cell RNA sequencing</b><br>
+		<!--  Li Q*, <b>Cheng Z* (co-first author)</b>, Zhou L, Darmanis S, Neff NF, Okamoto J, … & Tony Wyss-Coray, Ben A Barres<br> -->
+		<i><b>Neuron</b>, Jan. 2019.</i><br>
+		<a href="https://www.sciencedirect.com/science/article/pii/S0896627318310821"> <small>[Paper] </small></a>
+		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
+		</div>
+	</div><br>
+	
+
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Single-cell transcriptomics uncovers glial progenitor diversity and cell fate determinants during development and gliomagenesis </b><br>
+		<!--  Weng Q, Wang J, Wang J, He D, <b>Cheng Z</b>, Zhang F, Verma R, Xu L, Dong X, Liao Y, He X, Potter A, Zhang L, Zhao C, et al.<br>  -->
+		<i><b>Cell stem cell</b>, May 2019.</i><br>
+		<a href="https://www.sciencedirect.com/science/article/pii/S1934590919301055"> <small>[Paper] </small></a>
+		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>An inducible genetic tool for tracking and manipulating specific microglial states in development and disease</b><br>
+		<!--  Barclay K, Nora A, <b>Cheng Z</b>, Kim M, Zhou L, Yang J, Rustenhoven J, Mazzitelli J, Smyth LC, Kapadia D, Brioschi S, et al.<br>  -->
+		<i><b>Immunity</b>, May 2024.</i><br>
+		<a href="https://www.cell.com/immunity/fulltext/S1074-7613(24)00258-9"> <small>[Paper] </small></a>
+		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Cosbin: cosine score-based iterative normalization of biologically diverse samples</b><br>
+		<!--  Wu CT, Shen M, Du D, <b>Cheng Z</b>, Parker SJ, Lu Y, Van Eyk JE, Yu G, Clarke R, Herrington DM, Wang Y, et al.<br> -->
+		<i>Bioinformatics Advances, Oct. 2022.</i><br>
+		<a href="https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac076/6764617"> <small>[Paper]</small></a>
+		<a href="https://github.com/MinjieSh/Cosbin"> <small>[Code]</small></a>
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Microglial microRNAs mediate sex-specific responses to tau pathology</b><br>
+		<!--  Kodama L, Guzman E, Etchegaray JI, Li Y, Sayed FA, Zhou L, Zhou Y, Zhan L, Le D, Udeochu JC, Clelland CD, <b>Cheng Z</b>, et al.<br> -->
+		<i><b>Nature Neuroscience</b>, Feb. 2020.</i><br>
+		<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7394069/"> <small>[Paper] </small></a>
+		</div>
+	</div><br>
+		
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>AD-linked R47H-TREM2 mutation induces disease-enhancing microglial states via AKT hyperactivation</b><br>
+		<!--  Sayed FA, Kodama L, Fan L, Carling GK, Udeochu JC, Le D, Li Q, Zhou L, Wong MY, Horowitz R, Ye P, Mathys H, Wang M, Niu X, 
+		Mazutis L, Jiang X, Wang X, Gao F, Brendel M, Maria T, Tracy TE, Frost G, Zhou Y, Li Y, Qiu Y, <b>Cheng Z</b>, Yu G, et al.<br> -->
+		<i><b>Science Translational Medicine</b>, Dec. 2021.</i><br>
+		<a href="https://www.science.org/doi/full/10.1126/scitranslmed.abe3947"> <small>[Paper] </small></a>
+		</div>
+	</div><br>
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Paternal malnutrition programs breast cancer risk and tumor metabolism in offspring</b><br>
+		<!--  da Cruz RS, Carney EJ, Clarke J, Cao H, Cruz MI, Benitez C, Jin L, Fu Y, <b>Cheng Z</b>, Wang Y, de Assis S<br> -->
+		<i>Breast Cancer Research, Dec. 2018.</i><br>
+		<a href="https://link.springer.com/article/10.1186/s13058-018-1034-7"> <small>[Paper] </small></a>
+		</div>
+	</div><br>	
+	
+	<div class="row">
+		<div class="col-md-12" style="color:white;">
+		<b>Self-heating burn-in pattern generation based on the genetic algorithm incorporated with a BACK-like procedure</b><br>
+		<!--  <b>Cheng Z</b>, Cui X, Cui X, Lee CL<br> -->
+		<i>IET Computers & Digital Tech., Nov. 2015.</i><br>
+		<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cdt.2014.0219"> <small>[Paper]</small></a>
+		</div>
+	</div><br>		
+	
+</div>
+
+
 
 
 
@@ -280,7 +809,7 @@
 	<!--Virginia Tech Research Center - Arlington<br>
 	900 N. Glebe Road<br>
 	Arlington, VA 22203<br> -->
-	<a href="mailto:yxwang90@vt.edu">yxwang90@vt.edu</a><br>
+	<a href="mailto:zuolin8@vt.edu">zuolin8@vt.edu</a><br>
 	
 	<hr>
 </div>
