@@ -1,55 +1,148 @@
 
-
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Zuolin Cheng's Website</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="theme/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="./bootstrap-theme.min.css"> -->
-	<!-- <link rel="stylesheet" href="./custom1.css"> -->
-	<!-- <link rel="stylesheet" href="./custom1.css"> -->
-	
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuolin Cheng's Website</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <style>
+        body {
+            font-size: 16px;
+            background-color: black;
+            color: white;
+        }
+        
+        .navbar {
+            background-color: #222;
+            padding: 0px 0px;
+        }
+        .navbar-collapse {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-header {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-header h1 {
+            font-size: 30px;
+            color: #aaa;
+            margin: 0;
+            padding: 18px 0px;
+        }
+		.navbar-nav>li>a {padding-top: 0px;padding-bottom: 0px;line-height: 60px;font-size: 18px;}
+        .navbar-nav-head {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-nav-head>li {
+            list-style: none;
+        }
+        .navbar-nav-head>li>a {
+            padding: 0px;
+            padding-left: 12px;
+            padding-right: 12px;
+            
+            font-size: 18px;
+            color: #aaa;
+            text-decoration: none;
+        }		
+		
+		
+		
+		a {color: #FFD54F;text-decoration: none;}
+		a:visited {color: #B47118;}
+		
+        .container {
+            padding-top: 80px;
+            font-size: 18px;
+        }
+        .container_head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .intro-content {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            color: white;
+        }
+        .intro-image {
+            flex: 0 0 27%;
+            padding-right: 25px;
+        }
+        .intro-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 0;
+        }
+        .intro-description {
+            flex: 0 0 73%;
+            margin-top: 0;
+            font-size: 18px;
+        }
+        .intro-description p:first-child {
+            margin-top: 0;
+        }
 
-<style>
-	body {font-size: 16px}
-	.navbar-fixed-top {min-height: 60px;}
-	.navbar-nav>li>a {padding-top: 0px;padding-bottom: 0px;line-height: 60px;font-size: 18px;}
-	a {color: #FFD54F;}
-	a:visited {color: #B47118;}
-}
-</style></head>
+        /* Add this for scroll margin */
+        #SelectedProjects, #Publications {
+            scroll-margin-top: 60px; /* Adjust this value to match your navbar height */
+        }
+        #News, #OngoingProjects {
+            scroll-margin-top: 90px; /* Adjust this value to match your navbar height */
+        }
+                
+                
+    </style>
+</head>
 
 
 
+<!-- <body id="home" data-spy="scroll" data-target=".navbar" style="background-color:black;"> -->
+<body id="home" data-spy="scroll" data-target=".navbar">
 
 
-<body id="home" data-spy="scroll" data-target=".navbar" style="background-color:black;">
-
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-    		<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-      	</button>
-      	<h1 style="font-size: 25px; color:#aaa;">Zuolin Cheng</h1>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">  
+	<div class="container" style="padding-top: 0px; padding-bottom: 0px; line-height: 30px; font-size: 18px">    
+        <div class="container_head">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    			<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+      		</button>
+                <h1>Zuolin Cheng</h1>
+            </div>
+            	<ul class="nav navbar-nav-head navbar-right">
+                	<li><a href="#">Home</a></li>
+                	<li><a href="#News">News</a></li> 
+                	<li><a href="#OngoingProjects">Ongoing projects</a></li> 
+                	<li><a href="#SelectedProjects">Selected projects</a></li>
+                	<li><a href="#Publications" style = "padding-right: 0px">Publications</a></li>
+                	<!-- <li><a href="#Contact">Contact</a></li> -->
+                	<!-- <li><a href="https://ccwang92.github.io/#News">News</a></li> -->
+                	<!-- <li><a href="http://oliviawang90.github.io/~yj9xs/#Awards">Awards</a></li> -->
+                	<!-- <li><a href="https://oliviawang90.github.io/#Projects">Onging Project</a></li> -->
+                	<!-- <li><a href="https://oliviawang90.github.io/#Education">Education</a></li> -->
+            	</ul>
+        </div>
     </div>
-	    <div class="collapse navbar-collapse" id="navbar-top">
-			<ul class="nav navbar-nav navbar-right">
-			  	<li><a href="https://oliviawang90.github.io/#">Home</a></li>
-				<!-- <li><a href="https://ccwang92.github.io/#News">News</a></li> -->
-				<!-- <li><a href="http://oliviawang90.github.io/~yj9xs/#Awards">Awards</a></li> -->
-			  	<!-- <li><a href="https://oliviawang90.github.io/#Projects">Onging Project</a></li> -->
-				<li><a href="https://oliviawang90.github.io/#Publications">Publications</a></li>
-				<!-- <li><a href="https://oliviawang90.github.io/#Education">Education</a></li> -->
-			  	<li><a href="https://oliviawang90.github.io/#Contact">Contact</a></li>
-		    </ul>
-	    </div>
-	</div>
 </nav>
 
+
+
+
+
+</br></br></br>
 
 
 
@@ -63,7 +156,7 @@
 	<div class="intro-container">
 	<div class="intro-content">
 		<div class="intro-image">
-			<img class="img-responsive img-rounded" src="data/imgs/me21.JPG" alt="">  <!-- Image -->
+			<img class="img-responsive img-rounded" src="data/imgs/me2.JPG" alt="">  <!-- Image -->
 		</div>
 		
 		<div class="intro-description" align="justify">
@@ -83,7 +176,7 @@
 		</p>		
 
 
-				
+
 		<font color= #D1F078>I am currently on the job market. </font> 
 		<a href="data/Resume_ZuolinCheng_V9.1_.pdf">[Resume]</a>
 		<a href="https://scholar.google.com/citations?user=6pHncW4AAAAJ&hl=en&oi=ao">[Google Scholar]</a>
@@ -98,39 +191,8 @@
        
 
 <style>
-    .intro-container {
-        width: 100%;
-        color: white;
-    }
-    .intro-content {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-    }
-    .intro-image {
-        flex: 0 0 25%;
-        padding-right: 35px;
-    }
-    .intro-image img {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin-top: 0;
-    }
-    .intro-description {
-        flex: 0 0 75%;
-        margin-top: 0;
-        font-size: 18px; /* Increased font size */
-        line-height: 1.5; /* Adjusted line height for better readability */
-    }
-    .intro-description p:first-child {
-        margin-top: 0;
-    }
+
 </style>
-
-
-
-
 
 
 
@@ -177,12 +239,32 @@
 </head>
 
 
+<!-- News -->
+<body>
+    <div class="container">
+        <section id="News" class="projects-section"  align="justify">
+            <h2 class="section-title">Recent News</h2>
+            <ul class="project-details">
+            	<p><li><b>2024-05-31</b>: Our paper, “An Inducible Genetic Tool for Tracking and Manipulating Specific Microglial States in Development and Disease,” 
+            	is published in <b>Immunity</b>.</li></p>
+            	<p><li><b>2024-04-20</b>: Our paper, “An Efficient and Principled Model to Jointly Learn the Agnostic and Multifactorial Effect in Large-Scale Biological Data,” 
+            	is now available on bioRxiv.</li></p>
+            	<p><li><b>2024-03-22</b>: The R package of our tool, “CMC-GOTermActivity,” has been updated to version 0.3.1 on <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-GOTermActivity">GitHub</a>. 
+            	This new release includes a comprehensive 
+            	user manual <a href="data/GOTermActivity_manual_V0.3.1.pdf">(link)</a>
+            	 and is now compatible with the latest version (v5) of the popular scRNA-seq analysis package, Seurat.</li></p>          	
+            </ul>
+        </section>
+    </div>
+</body>
+
+
 
 
 <!-- Ongoing Projects -->
 <body>
     <div class="container">
-        <section id="projects" class="projects-section">
+        <section id="OngoingProjects" class="projects-section"  align="justify">
             <h2 class="section-title">Ongoing Projects</h2>
             <div class="project">
                 <h3 class="project-title">GO-BERT: Cell Type Annotation for scRNA-seq Data Using Large Language Model (LLM)</h3>
@@ -210,9 +292,8 @@
 
 
 
-
 <!-- Completed Projects -->
-<div id="Projects" class="page-header container">
+<div id="SelectedProjects" class="page-header container">
 	<h1  style="color:white;">Selected Projects</h1>
 </div>	
 
@@ -238,7 +319,7 @@
                 <img class="img-responsive img-rounded" src="data/imgs/Neuron_P2.svg" alt="CMC Project Image">
             </div>
             <div class="project-description">
-                <p>Pseudotime analysis;<br>Pathway/GO enrichment analysis;<br>Gene regulation network construction;</p>
+                <p>Pseudotime analysis;<br>Pathway/GO enrichment analysis;<br>Regulation network construction;</p>
             </div>
         </div>
 
@@ -247,7 +328,7 @@
                 <img class="img-responsive img-rounded" src="data/imgs/Neuron_P3_2.jpg" alt="CMC Project Image">
             </div>
             <div class="project-description">
-                <p><b>Cell cycle reconstruction; <br> Cell types similarity analysis</b> (newly-found PAM vs well-know DAM);</p>
+                <p><b>Cell cycle reconstruction; <br> Cell types similarity analysis</b> (newly-found PAM vs. well-know DAM);</p>
             </div>
         </div>
         
@@ -264,8 +345,9 @@
                 <img class="img-responsive img-rounded" src="data/imgs/CMC.svg" alt="CMC Project Image">
             </div>
             <div class="project-description">
-                <p>CMC advances various genomic analysis tasks by transforming complex tasks into a unified mathematical problem - inference of the multifactorial effect in large-scale omics data.</p>
-				<p><a href="https://github.com/yu-lab-vt/CMC">[GitHub: <span class="smaller-text">CMC</span>]</a> 
+                <p>CMC advances various genomic analysis tasks by transforming complex tasks into a unified mathematical problem: inferring the effect of multiple hidden factors in large-scale omics data.
+				</br>
+				<a href="https://github.com/yu-lab-vt/CMC">[GitHub: <span class="smaller-text">CMC</span>]</a> 
 				<a href="https://www.biorxiv.org/content/10.1101/2024.04.12.589306v1.full.pdf"> [Paper: <span class="smaller-text">CMC</span>]</a></p>
             </div>
         </div>
@@ -275,11 +357,13 @@
 	
     <!-- App1: Driving TF -->
     <div class="project-container">
-        <h2 style="color:white; width: 100%;">(Application 1) Driving Transcription Factor(TF) Identification</h2>
-        <div class="project-description"> Driving TF identification aims to pinpoint TFs responsible for biological processes or diseases by mining a large-scale TF-gene binding database. 
+        <h2 style="color:white; width: 100%;">(CMC Application 1) Driving Transcription Factor(TF) Identification</h2>
+        <div class="project-description" align="justify"> Driving TF identification aims to pinpoint TFs responsible for biological processes or diseases by mining a large-scale TF-gene binding database. 
         <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-DrivingTFDetection">[GitHub: <span class="smaller-text">DrivingTF</span>]</a> 
-        <br> Using CMC, we systematically models gene & TF binding affinity heterogeneity, leading to more accurate detection.</p>	
-        <div class="project-content">
+        <br> Using CMC, we systematically models gene & TF binding affinity heterogeneity, leading to more accurate detection.</p>
+        </div>	
+        
+        <div class="project-content" >
             <div class="project-image">
                 <img class="img-responsive img-rounded" src="data/imgs/DrivingTF_P1.svg" alt="CMC Project Image">
             </div>
@@ -293,17 +377,16 @@
             </div>
             <div class="project-description">
                 <p><br>The model successfully identified Zfp36l1 as a key regulator of glial fate specification and glioma growth, confirmed by knock-out experiments, leading to genuine biological discoveries.
-                <a href="https://www.sciencedirect.com/science/article/pii/S1934590919301055"> [Paper: <span class="smaller-text">DrivingTF</span>]</a></p>
+                </br><a href="https://www.sciencedirect.com/science/article/pii/S1934590919301055"> [Paper: <span class="smaller-text">DrivingTF</span>]</a></p>
             </div>
-        </div>      
-        </div>
+        </div> 
     </div>
     <br><br>
     
     
     <!-- Application 2:scRNA-seq Normalization -->
     <div class="project-container">
-        <h2 style="color:white; width: 100%;">(Application 2) scRNA-seq Data Normalization</h2>
+        <h2 style="color:white; width: 100%;">(CMC Application 2) scRNA-seq Data Normalization</h2>
         <div class="project-content">
             <div class="project-image">
                 <img class="img-responsive img-rounded" src="data/imgs/scRNANorm.svg" alt="CMC Project Image">
@@ -329,7 +412,7 @@
     
     <!-- Application 3:TySim -->
     <div class="project-container">
-        <h2 style="color:white; width: 100%;"> (Application 3) TySim: Quantifying Similarity of Single Cells to Target Cell Type</h2>
+        <h2 style="color:white; width: 100%;"> (CMC Application 3) TySim: Quantifying Similarity of Single Cells to Target Cell Type</h2>
         <div class="project-description"> TySim is the first tool to quantify single-cell similarity to a target cell type (for scRNA-seq data across different sequencing platforms) 
         <a href="https://ieeexplore.ieee.org/abstract/document/9995574">[Paper: <span class="smaller-text">TySim</span>]</a> 
         <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-TySim">  [GitHub: <span class="smaller-text">TySim</span>]</a><p>
@@ -362,7 +445,7 @@
             </div>
             <div class="project-description">
                 <p>TySim was applied to validate the effectiveness of an inducible genetic tool for tracking microglial subtypes in disease.
-                <a href="https://www.cell.com/immunity/fulltext/S1074-7613(24)00258-9">[Paper: <span class="smaller-text">Immunity</span>]</a> </p>
+                <br><a href="https://www.cell.com/immunity/fulltext/S1074-7613(24)00258-9">[Paper: <span class="smaller-text">Immunity</span>]</a> </p>
             </div>
         </div>
     
@@ -374,7 +457,7 @@
     	
     <!-- Application 4:GO Term -->
     <div class="project-container">
-        <h2 style="color:white; width: 100%;"> (Application 4) Gene Ontology (GO) term activity score transformation</h2>
+        <h2 style="color:white; width: 100%;"> (CMC Application 4) Gene Ontology (GO) term activity score transformation</h2>
         <div class="project-description"> A model to transform the scRNA-seq dataset into GO term activity score. 
         <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-GOTermActivity">  [GitHub: <span class="smaller-text">GO-Transform</span>]</a><p>
         </div>
@@ -387,30 +470,19 @@
         <br>
         <div class="project-content">
             <div class="project-image">
-                <img class="img-responsive img-rounded" src="data/imgs/GOTerm_P2.jpg" alt="CMC Project Image">
+                <img class="img-responsive img-rounded" src="data/imgs/GOTerm_P2_3.jpg" alt="CMC Project Image">
             </div>
             <div class="project-description">
-                <p>TySim enables the identification of cell type that was not discovered due to contamination in scRNA-seq data.</p>
+                <p>GO term activity transformation enhances downstream clustering analysis.</p>
             </div>
         </div>
-        
-        <br>
-        <div class="project-content">
-            <div class="project-image">
-                <img class="img-responsive img-rounded" src="data/imgs/TySim_P3.svg" alt="CMC Project Image">
-            </div>
-            <div class="project-description">
-                <p>TySim was applied to validate the effectiveness of an inducible genetic tool for tracking microglial subtypes in disease. [Paper]</p>
-            </div>
-        </div>
-        
     </div>
     <br><br>        	
     	
     	
     <!-- Application 5:CancerGene -->
     <div class="project-container">
-        <h2 style="color:white; width: 100%;"> (Application 5) Cancer Associated Gene Identification</h2>
+        <h2 style="color:white; width: 100%;"> (CMC Application 5) Cancer Associated Gene Identification</h2>
         <div class="project-description"> A model to identify the genes whose mutations are responsible for a particular cancer initiation and progression. 
         <a href="https://github.com/yu-lab-vt/CMC/tree/CMC-CancerGeneFinder">  [GitHub: <span class="smaller-text">CancerGeneFinder</span>]</a><p>
         </div>
@@ -419,7 +491,7 @@
                 <img class="img-responsive img-rounded" src="data/imgs/CancerGene_P1.svg" alt="CMC Project Image">
             </div>
             <div class="project-description">
-                <p><b>Q: which gene’s mutations are responsible for cancer’s initiation & progression? </b></p>
+                <p><b>Question: which gene’s mutations are responsible for cancer’s initiation & progression? </b></p>
             </div>
         </div>
         
@@ -664,115 +736,6 @@
 
 
 
-<!-- Publications -->
-<div id="Publications" class="page-header container">
-	<h1 style="color:white;">Publications</h1>
-  </div>
-<div class="container">
-
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>An Efficient and Principled Model to Jointly Learn the Agnostic and Multifactorial Effect in Large-Scale Biological Data</b><br>
-		<!--  <b>Cheng Z</b>, Wei S, Wang Y, Wang Y, Lu R, Wang Y, Yu G<br> -->
-		<i>bioRxiv, Apr. 2024.</i><br>
-		<a href="https://www.biorxiv.org/content/10.1101/2024.04.12.589306v1.full.pdf"> <small>[Paper]</small></a>
-		<a href="https://github.com/yu-lab-vt/CMC"> <small>[Code] </small></a>
-		</div>
-	</div><br>
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>A Single-Cell-Resolution Quantitative Metric of Similarity to a Target Cell Type for scRNA-seq Data</b><br>
-		<!--  <b>Cheng Z</b>, Wei S, Yu G<br>  -->
-		<i>In 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Dec. 2022.</i><br>
-		<a href="https://ieeexplore.ieee.org/abstract/document/9995574"> <small>[Paper]</small></a>
-		<a href="https://github.com/yu-lab-vt/CMC/tree/CMC-TySim"> <small>[Code] </small></a>
-		</div>
-	</div><br>
-
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Developmental heterogeneity of microglia and brain myeloid cells revealed by deep single-cell RNA sequencing</b><br>
-		<!--  Li Q*, <b>Cheng Z* (co-first author)</b>, Zhou L, Darmanis S, Neff NF, Okamoto J, … & Tony Wyss-Coray, Ben A Barres<br> -->
-		<i><b>Neuron</b>, Jan. 2019.</i><br>
-		<a href="https://www.sciencedirect.com/science/article/pii/S0896627318310821"> <small>[Paper] </small></a>
-		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
-		</div>
-	</div><br>
-	
-
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Single-cell transcriptomics uncovers glial progenitor diversity and cell fate determinants during development and gliomagenesis </b><br>
-		<!--  Weng Q, Wang J, Wang J, He D, <b>Cheng Z</b>, Zhang F, Verma R, Xu L, Dong X, Liao Y, He X, Potter A, Zhang L, Zhao C, et al.<br>  -->
-		<i><b>Cell stem cell</b>, May 2019.</i><br>
-		<a href="https://www.sciencedirect.com/science/article/pii/S1934590919301055"> <small>[Paper] </small></a>
-		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
-		</div>
-	</div><br>
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>An inducible genetic tool for tracking and manipulating specific microglial states in development and disease</b><br>
-		<!--  Barclay K, Nora A, <b>Cheng Z</b>, Kim M, Zhou L, Yang J, Rustenhoven J, Mazzitelli J, Smyth LC, Kapadia D, Brioschi S, et al.<br>  -->
-		<i><b>Immunity</b>, May 2024.</i><br>
-		<a href="https://www.cell.com/immunity/fulltext/S1074-7613(24)00258-9"> <small>[Paper] </small></a>
-		<!-- <a href="https://github.com/yu-lab-vt/CINDA"> <small>[Code] </small></a> -->
-		</div>
-	</div><br>
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Cosbin: cosine score-based iterative normalization of biologically diverse samples</b><br>
-		<!--  Wu CT, Shen M, Du D, <b>Cheng Z</b>, Parker SJ, Lu Y, Van Eyk JE, Yu G, Clarke R, Herrington DM, Wang Y, et al.<br> -->
-		<i>Bioinformatics Advances, Oct. 2022.</i><br>
-		<a href="https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac076/6764617"> <small>[Paper]</small></a>
-		<a href="https://github.com/MinjieSh/Cosbin"> <small>[Code]</small></a>
-		</div>
-	</div><br>
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Microglial microRNAs mediate sex-specific responses to tau pathology</b><br>
-		<!--  Kodama L, Guzman E, Etchegaray JI, Li Y, Sayed FA, Zhou L, Zhou Y, Zhan L, Le D, Udeochu JC, Clelland CD, <b>Cheng Z</b>, et al.<br> -->
-		<i><b>Nature Neuroscience</b>, Feb. 2020.</i><br>
-		<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7394069/"> <small>[Paper] </small></a>
-		</div>
-	</div><br>
-		
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>AD-linked R47H-TREM2 mutation induces disease-enhancing microglial states via AKT hyperactivation</b><br>
-		<!--  Sayed FA, Kodama L, Fan L, Carling GK, Udeochu JC, Le D, Li Q, Zhou L, Wong MY, Horowitz R, Ye P, Mathys H, Wang M, Niu X, 
-		Mazutis L, Jiang X, Wang X, Gao F, Brendel M, Maria T, Tracy TE, Frost G, Zhou Y, Li Y, Qiu Y, <b>Cheng Z</b>, Yu G, et al.<br> -->
-		<i><b>Science Translational Medicine</b>, Dec. 2021.</i><br>
-		<a href="https://www.science.org/doi/full/10.1126/scitranslmed.abe3947"> <small>[Paper] </small></a>
-		</div>
-	</div><br>
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Paternal malnutrition programs breast cancer risk and tumor metabolism in offspring</b><br>
-		<!--  da Cruz RS, Carney EJ, Clarke J, Cao H, Cruz MI, Benitez C, Jin L, Fu Y, <b>Cheng Z</b>, Wang Y, de Assis S<br> -->
-		<i>Breast Cancer Research, Dec. 2018.</i><br>
-		<a href="https://link.springer.com/article/10.1186/s13058-018-1034-7"> <small>[Paper] </small></a>
-		</div>
-	</div><br>	
-	
-	<div class="row">
-		<div class="col-md-12" style="color:white;">
-		<b>Self-heating burn-in pattern generation based on the genetic algorithm incorporated with a BACK-like procedure</b><br>
-		<!--  <b>Cheng Z</b>, Cui X, Cui X, Lee CL<br> -->
-		<i>IET Computers & Digital Tech., Nov. 2015.</i><br>
-		<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cdt.2014.0219"> <small>[Paper]</small></a>
-		</div>
-	</div><br>		
-	
-</div>
-
-
-
-
 
 <!-- Education -->
 
@@ -806,13 +769,12 @@
 	<h1 style="color:white;">Contact me! </h1>
   </div>
 <div class="container" style="color:white;">
-	<!--Virginia Tech Research Center - Arlington<br>
-	900 N. Glebe Road<br>
-	Arlington, VA 22203<br> -->
-	<a href="mailto:zuolin8@vt.edu">zuolin8@vt.edu</a><br>
 	
+	<a href="mailto:zuolin8@vt.edu">zuolin8@vt.edu</a><br>
+	Virginia Tech Research Center - Arlington<br>
 	<hr>
 </div>
+
 
 <!-- <footer class="footer">
 	  <div class="container">
